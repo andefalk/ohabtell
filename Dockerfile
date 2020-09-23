@@ -1,6 +1,6 @@
 FROM ubuntu:18.04
 MAINTAINER Andreas Segerfalk <friden.andreas@gmail.com>
-COPY setup/ /tmp/
+# COPY setup/ /tmp/
 ENV WEEWX_VERSION 3.9.2
 # The font file is used for the generated images
 # With mqtt and newwx skin extention
