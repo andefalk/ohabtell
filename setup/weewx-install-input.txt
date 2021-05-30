@@ -1,0 +1,9 @@
+My WS1080
+0, meter
+59.381
+17.915
+n
+metric
+2
+serial
+/dev/ttyUSB0
