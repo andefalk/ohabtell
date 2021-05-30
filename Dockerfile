@@ -1,4 +1,4 @@
-FROM ubuntu:18.04
+FROM alpine:latest
 MAINTAINER Andreas Segerfalk <friden.andreas@gmail.com>
 COPY setup/ /tmp/
 ENV WEEWX_VERSION 3.9.2
