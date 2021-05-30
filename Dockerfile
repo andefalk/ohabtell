@@ -65,7 +65,7 @@ RUN apk add --no-cache --update \
       /root/.cache /var/cache/apk/* /var/log/* /tmp/* && \
     find /home/$WX_USER/bin -name '*.pyc' -exec rm '{}' +;
 
-COPY entrypoint.sh /usr/local/bin
+COPY setup/entrypoint.sh /usr/local/bin
 COPY setup/skin.conf /etc/weewx/skins/neowx/ 
 COPY setup/daily.json.tmpl /etc/weewx/skins/neowx/
 
