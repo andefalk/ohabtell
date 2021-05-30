@@ -2,9 +2,8 @@ FROM alpine:latest
 MAINTAINER Andreas Segerfalk <friden.andreas@gmail.com>
 
 ENV ALTITUDE="30, meter" \
-    LATITUDE=50.00 \
-    LONGITUDE=-80.00 \
-    COMPUTER_TYPE="unbranded PC" \
+    LATITUDE=59.382 \
+    LONGITUDE=17.915 \
     DB_BINDING_SUFFIX=mysql \
     DB_DRIVER=weedb.mysql \
     DB_HOST=db \
@@ -14,26 +13,16 @@ ENV ALTITUDE="30, meter" \
     DEBUG=0 \
     DEVICE_PORT=/dev/ttyUSB0 \
     HTML_ROOT=/var/www/weewx \
-    LOCATION="Anytown, USA" \
+    LOCATION="Stockholm, Sweden" \
     LOGGING_INTERVAL=300 \
-    OPERATOR="Al Roker" \
-    OPTIONAL_ACCESSORIES=False \
-    RAIN_YEAR_START=7 \
-    RAPIDFIRE=True \
-    RSYNC_HOST=web01 \
-    RSYNC_PORT=22 \
-    RSYNC_DEST=/usr/share/nginx/html \
-    RSYNC_USER=wx \
+    RAIN_YEAR_START=1 \
     SKIN=Standard \
-    STATION_FEATURES="fan-aspirated shield" \
-    STATION_ID=unset \
-    STATION_MODEL=6152 \
-    STATION_TYPE=Vantage \
+    STATION_MODEL=WH1080 \
+    STATION_TYPE=FineOffsetUSB \
     STATION_URL= \
     SYSLOG_DEST=/var/log/messages \
-    TZ=US/Eastern \
-    TZ_CODE=10 \
-    WEEK_START=6 \
+    TZ=Europe/Stockholm \
+    WEEK_START=0 \
     WX_USER=weewx \
     XTIDE_LOCATION=unset
 
